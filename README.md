@@ -5,14 +5,8 @@ A Microservice project built using Spring Boot consisting of two microservice ap
 - An API-Gateway
 
 ## Steps to run:
-- cd user
-- ./mvnw spring-boot:run
-- cd visa
-- ./mvnw spring-boot:run
-- cd registry
-- ./mvnw spring-boot:run
-- cd gateway
-- ./mvnw spring-boot:run
+- ``` cd ``` into each directory.
+- Run ``` ./mvnw spring-boot:run ``` each microservice. 
 
 ### Open http://localhost:9191/user/ or http://localhost:9191/visa/ in browser. 
 
