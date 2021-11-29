@@ -1,6 +1,6 @@
 # Microservices-Eureka-Server
 
-A Microservice project consisting of two microservice application.
+A Microservice project built using Spring Boot consisting of two microservice application.
 - Eureka Server-Client
 - An API-Gateway
 
