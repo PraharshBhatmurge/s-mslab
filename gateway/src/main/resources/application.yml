@@ -1,0 +1,17 @@
+server:
+  port: 9191
+
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      routes:
+        - id: USER-SERVICE
+          uri: lb://USER-SERVICE
+          predicates:
+            - Path=/user/**
+        - id: VISA-SERVICE
+          uri: lb://VISA-SERVICE
+          predicates:
+            - Path=/visa/**
